@@ -1,0 +1,196 @@
+@font-face {
+    font-family: "gilroy-regular";
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot);
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.eot#iefix) format("embedded-opentype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff2) format("woff2"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.woff) format("woff"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.ttf) format("truetype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/regular/Gilroy-Regular.svg#Gilroy-Regular) format("svg");
+}
+
+@font-face {
+    font-family: "gilroy-medium";
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot);
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.eot#iefix) format("embedded-opentype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff2) format("woff2"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.woff) format("woff"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.ttf) format("truetype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/medium/Gilroy-Medium.svg#Gilroy-Medium) format("svg");
+}
+
+@font-face {
+    font-family: "gilroy-light";
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot);
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.eot#iefix) format("embedded-opentype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff2) format("woff2"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.woff) format("woff"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.ttf) format("truetype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/light/Gilroy-Light.svg#Gilroy-Light) format("svg");
+}
+
+@font-face {
+    font-family: "gilroy-semibold";
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot);
+    src: url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.eot#iefix) format("embedded-opentype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff2) format("woff2"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.woff) format("woff"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.ttf) format("truetype"),
+        url(https://buidl.so/themes/buidlerstribe_bootstrap/fonts/gilroy/semibold/Gilroy-SemiBold.svg#Gilroy-SemiBold) format("svg");
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* for small devices */
+.block-views-blockprograms-block-7>div {
+    display: flex;
+    width: fit-content;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 38px;
+}
+
+.block-views-blockprograms-block-7 a,
+.block-views-blockprograms-block-6 a {
+    margin-top: 20px;
+}
+
+.block-views-blockprograms-block-7 div p {
+    font-size: 18px;
+    margin-left: 14px;
+}
+
+.block-views-blockprograms-block-6 p {
+    font-size: 25px;
+    margin-top: 55px;
+}
+
+.block-8-col p {
+    color: grey;
+}
+
+.block-8-col p:nth-of-type(2) {
+    margin-top: -12px;
+}
+
+.block-views-blockprograms-block-8 div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.block-8-col:nth-child(2) {
+    margin-top: 40px;
+}
+
+.program-view-mentor-profile+p {
+    text-align: center;
+    font-size: medium;
+}
+
+.block-views-blockprograms-block-9>p {
+    text-align: center;
+    color: grey;
+    margin-top: 60px;
+    font-size: x-large;
+}
+
+.pb {
+    padding-bottom: 10px;
+}
+
+/* for tablets */
+@media screen and (min-width: 768px) {
+    .block-views-blockprograms-block-7 h1 {
+        font-size: 54px;
+    }
+    .block-views-blockprograms-block-7 a,
+    .block-views-blockprograms-block-6 a {
+        width: 300px;
+    }
+    .calender-icon {
+        color: grey;
+        font-size: 24px;
+        padding-left: 5px;
+    }
+    .block-views-blockprograms-block-8 > div {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin-top: 100px;
+    }
+    .block-8-col {
+        position: relative;
+        width: 100%;
+    }
+    .block-8-col p,
+    .block-8-col span {
+        font-size: 24px;
+    }
+    .block-8-col h1 {
+        font-size: 70px;
+    }
+    .block-8-col img {
+        margin-top: 90px;
+    }
+    .program-view-mentor-profile + p {
+        font-size: x-large;
+    }
+    .block-views-blockprograms-block-9 > p {
+        margin-top: 110px;
+        margin-bottom: 70px;
+        font-size: 36px;
+    }
+
+    .block-views-blockprograms-block-6 p {
+        font-size: 40px;
+        margin-top: 130px;
+        margin-bottom: 24px;
+    }
+    .block-views-blockprograms-block-6 .view-content div,
+    .block-7-content {
+        font-size: 18px;
+        margin-top: 16px;
+    }
+    .block-views-blockprograms-block-8 .container div:nth-child(1)::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 2px;
+        height: 100%;
+        background: -moz-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+        /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(0, 0, 0, 0)), color-stop(46.52%, #000000), color-stop(100%, rgba(0, 0, 0, 0)));
+        /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top, rgba(0, 0, 0, 0) 0%, #000000 46.52%, rgba(0, 0, 0, 0) 100%);
+        /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top, rgba(208, 228, 247, 0) 0%, rgba(115, 177, 231, 0.48) 24%, #000000 50%, rgba(83, 159, 225, 0.42) 79%, rgba(135, 188, 234, 0) 100%);
+        /* Opera 11.10+ */
+        background: -ms-linear-gradient(top, rgba(208, 228, 247, 0) 0%, rgba(115, 177, 231, 0.48) 24%, rgba(12, 16, 255, 1) 50%, rgba(83, 159, 225, 0.42) 79%, rgba(135, 188, 234, 0) 100%);
+        /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(0,0,0,0) 0%,rgb(182, 182, 182) 24%,#000 50%,rgb(182,182,182) 79%,rgba(224, 224, 224, 0) 100%);
+        /* W3C */
+    }
+}
+
+/* for laptops */
+@media screen and (min-width: 1024px) {
+    .block-8-col h1 {
+        font-size: 100px;
+    }
+
+    .block-views-blockprograms-block-6 .view-content div,
+    .block-7-content {
+        font-size: 20px;
+        margin-top: 16px;
+    }
+}
